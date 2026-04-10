@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="car.css">
+
+</head>
+<body>
+    <!--totopbtn-->
+    <button id ="toTopBtn">↑</button>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        
+        <div id="logo-container">
+            <video autoplay loop muted playsinline id="logo-video">
+                <source src="photos-and-logos/test.mp4" type="video/mp4">
+            </video>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" id="homeA">Home</a></li>
+            <li><a href="#" id="Cars-for-sale">Cars for sale</a></li>
+            <li><a href="#" id="new_cars">New Cars</a></li>
+            <li><a href="#" id="sell">Sell Your Car</a></li>
+        </ul>
+        <ul class="nav-links">
+            <li><a href="#" id="signin"><i class="fas fa-user"></i> Sign In</a></li>
+            <li><a href="#" id="menu_btn"><i class="fas fa-bars"></i>Menu</a></li>
+        </ul>
+    </nav>
+    <!--signin-->
+    <div id="passwo">
+            <div id="myElement" class="sign-in-container">
+                <button id="close-button" class="close-button">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h2 id="sign-text-content">Sign in or create an account</h2>
+                <button id="sign-text-content-google" class="btn google-btn">Sign in with Google</button>
+                <button id="sign-text-content-facebook" class="btn facebook-btn">Sign in with Facebook</button>
+                <button id="sign-text-content-apple" class="btn apple-btn">Sign in with Apple</button>
+                <p id="text-or" style="text-align:center;">Or</p>
+                <input type="email" class="email-input" placeholder="Email">
+                <button class="btn continue-btn">Continue</button>
+                <p id="text-problem" style="font-size:12px; color: #555; text-align:center;">
+                    If you encounter any problem or face any issues with logging in, please contact me on <a href="">Facebook</a> .
+                </p>
+            </div>
+        </div>
+    <!--menu-->
+    <div class="menue">
+        <div class="tst"> 
+            <div class="Deals">
+                <div style="display: block; width: 100%; height: 100%; position: relative; ">
+                    <div style=" margin-bottom: 20px; display: inline; border-radius: 10px; padding: 10px; height: 250px; display: flex; flex-direction: row; align-items: center; border: 2px solid black; width: 96%; background-color: rgb(223, 223, 223);">
+                        <div 
+                        style="
+                        height: 100%; width: 450px; border-radius: 8px; border: 2px solid black;
+                        background-image: url(photo/12.png); background-size: cover;
+                        background-color: aqua;
+                        "></div>
+                        <div style=" margin-left: 10px; width: 700px; height: 100%; ">
+                            <h2 style="margin-top: 10px;">BMW X6</h2>
+                            <div style=" display: block; text-align: left; width: 100%; height: 75%; position: relative;">
+                                <p style="position: absolute; bottom: 80%; right: 5px; font-size: 45px; font-weight: 700; background-image: linear-gradient(45deg, #ff0a78, #43f); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">-40%</p>
+                                <p class="p2 corner-price" style="position: absolute; bottom: 0; right: 20%; font-size: 20px; font-weight: 700; color: rgb(21, 255, 0);">
+                                    price: <span class="s_price">96,325<sup>$</sup></span>
+                                </p>
+                                <button class="buy_btn">Buy Now</button>
+                                <div style="margin-left: 10px;">
+                                    <p>Engine: 4.4L V8 Twin-Turbo</p>
+                                    <p>Horsepower: 600 HP</p>
+                                    <p>Transmission: 8-Speed Automatic</p>
+                                    <p>0–60 mph: 3.1 seconds</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div style=" margin-bottom: 20px; display: inline; border-radius: 10px; padding: 10px; height: 250px; display: flex; flex-direction: row; align-items: center; border: 2px solid black; width: 96%; background-color: rgb(223, 223, 223);">
+                        <div 
+                        style="
+                        height: 100%; width: 300px; border-radius: 8px; border: 2px solid black;
+                        background-image: url(photo/po1.png); background-size: cover;
+                        background-color: aqua;
+                        "></div>
+                        <div style=" margin-left: 10px; width: 65%; height: 100%; ">
+                            <h2 style="margin-top: 10px;">Porsche Macan</h2>
+                            <div style=" display: block; text-align: left; width: 100%; height: 75%; position: relative;">
+                                <p style="position: absolute; bottom: 80%; right: 5px; font-size: 45px; font-weight: 700; background-image: linear-gradient(45deg, #ff0a78, #43f); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">-30%</p>
+                                <p class="p2 corner-price" style="position: absolute; bottom: 0; right: 20%; font-size: 20px; font-weight: 700; color: rgb(21, 255, 0);">
+                                    price: <span class="s_price">62,550<sup>$</sup>
+                                </p>
+                                <button class="buy_btn">Buy Now</button>
+                                <div style="margin-left: 10px;">
+                                    <p>Engine: 4.4L V8 Twin-Turbo</p>
+                                    <p>Horsepower: 600 HP</p>
+                                    <p>Transmission: 8-Speed Automatic</p>
+                                    <p>0–60 mph: 3.1 seconds</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                     <div style="margin-bottom: 20px; display: inline; border-radius: 10px; padding: 10px; height: 250px; display: flex; flex-direction: row; align-items: center; border: 2px solid black;  width: 96%; background-color: rgb(223, 223, 223);">
+                        <div 
+                        style="
+                        height: 100%; width: 300px; border-radius: 8px; border: 2px solid black;
+                        background-image: url(photo/41.png); background-size: cover;
+                        background-color: aqua;
+                        "></div>
+                        <div style=" margin-left: 10px; width: 65%; height: 100%; ">
+                            <h2 style="margin-top: 10px;">Audi TT RS</h2>
+                            <div style=" display: block; text-align: left; width: 100%; height: 75%; position: relative;">
+                                <p style="position: absolute; bottom: 80%; right: 5px; font-size: 45px; font-weight: 700; background-image: linear-gradient(45deg, #ff0a78, #43f); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">-22%</p>
+                                <p class="p2 corner-price" style="position: absolute; bottom: 0; right: 20%; font-size: 20px; font-weight: 700; color: rgb(21, 255, 0);">
+                                    price: <span class="s_price">80,000<sup>€</sup></span>
+                                </p>
+                                <button class="buy_btn">Buy Now</button>
+                                <div style="margin-left: 10px;">
+                                    <p>Engine: 4.4L V8 Twin-Turbo</p>
+                                    <p>Horsepower: 600 HP</p>
+                                    <p>Transmission: 8-Speed Automatic</p>
+                                    <p>0–60 mph: 3.1 seconds</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="Setting info-op">
+                <h3>Settings</h3>
+                <p><i class="fas fa-globe"></i>Language</p>
+                <p><i class="fas fa-user-shield"></i>Privacy</p>
+                <p><i class="fas fa-moon"></i>Dark Mode
+                    <!--********************************************************************************-->
+                    
+
+                    <!--********************************************************************************-->
+                </p>
+                <p><i class="fas fa-credit-card"></i>Payment</p>
+                <p><i class="fas fa-bell"></i>Notification</p>
+            </div>
+            <div class="info info-op">
+                <h3>About Us</h3>
+                <p>
+                    This website was crafted with care by developer Sameh Otay.
+                    It’s built using a combination of technologies including HTML,
+                    CSS, JavaScript, Tailwind, JSON, and more. We hope you find it engaging and enjoyable
+                    . Feel free to explore and let us know your thoughts!
+                </p>
+                <h3>About This Page</h3>
+                <p>
+                    This page is dedicated to buying and selling both used and new cars.
+                     Users can easily sell their own car by simply uploading a photo and 
+                     entering its details. Additionally, users can purchase spare parts,
+                      and the page offers many benefits and services.
+                </p>
+            </div>
+            <div class="options">
+                <div style="position: relative; width: 100%; height: 100%; border: 1px solid black;">
+                    <span class="">Menu</span>
+                   <div class="les_p">
+                    
+                    <p id="Deals"><i class="fas fa-tags"></i>Deals</p>
+                    <p id="Favorites"><i class="fas fa-star"></i>Favorites</p>
+                    <p id="Archive"><i class="fas fa-archive"></i>Archive</p>
+                    <p id="Setting"><i class="fas fa-cog"></i>Settings</p>
+                    <p id="info"><i class="fas fa-info-circle"></i>Info</p>
+                    
+                    </div>
+                    <div class="virtion">Version 1.0  © 2025 </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HOME -->
+    <section id="home" class="page active">
+        <div class="cont card">
+            <img class="thefirst " src="photos-and-logos/number2.jpg" alt="Description">
+            <div class="t">
+                <div class="text-fix">With Carpi, you can</div>
+                <div class="text-not">
+                    <div class="text-not-fix">Purchase your dream car with us</div>
+                    <div class="text-not-fix">Sell your car effortlessly with our help</div>
+                    <div class="text-not-fix">Find quality spare parts at unbeatable prices</div>
+                </div>  
+                                   
+            </div>
+        </div>
+    <div>
+        <h1>
+            Welcome to Carpi!
+        </h1>
+        <p class="discription">
+             With just the click of a button, Carpi brings the world of cars right to your fingertips.
+              Explore a wide range of vehicles, whether you're looking to sell your car, buy a new one,
+               or even find a quality used car. Discover all cars from around the world, evaluate them,
+                add your favorites to a wishlist, and stay updated on prices across different currencies.
+                 Experience all these features and more with Carpi!<br>
+            <a href="">Create your account now</a> and take advantage of these great offers!
+        </p>
+    </div>
+    <div class="opportunity">
+        <h2>Special discounts on our new cars – seize the opportunity now!</h2>
+        <p class="discription">Limited-time offers</p>
+        <div class="cars_liste">
+            <div class="car_card">
+                <div class="card_front">
+                    <img src="photo/40.png" alt="">
+                    <h3>Limited Discount !!</h3><h3 id="timer"></h3>
+                    <p class="corner-p">-40%</p>
+                </div>
+                <div class="card_back">
+                    <center><h3>Audi TT RS</h3></center>
+                    <p>* Engine: 4.4L V8 Twin-Turbo</p>
+                    <p>* Horsepower: 600 HP</p>
+                    <p>* Transmission: 8-Speed Automatic</p>
+                    <p>* 0–60 mph: 3.1 seconds</p>
+                    <center><p class="p2 corner-price">price: <span class="s_price">80,000<sup>€</sup></span></p></center>
+                    <img src="photo/audi.png" alt="" class="corner">
+                </div>
+            </div>
+            
+            <div class="car_card" >
+                <div class="card_front">
+                    <img src="photo/12.png" alt="">
+                    <h3>Limited Discount !!</h3><h3 id="timer"></h3>
+                    <p class="corner-p">-28%</p>
+                    
+                </div>
+                <div class="card_back">
+                    <center><h3>BMW X6</h3></center>
+                    <p>* Engine: 4.4L V8 Twin-Turbo</p>
+                    <p>* Horsepower: 600 HP</p>
+                    <p>* Transmission: 8-Speed Automatic</p>
+                    <p>* 0–60 mph: 3.1 seconds</p>
+                    <center><p class="p2 corner-price">price: <span class="s_price">96,325<sup>$</sup></span></p></center>
+                    <img src="photo/bmw.png" alt="" class="corner">
+                    
+                </div>
+            </div>  
+            <div class="car_card">
+                <div class="card_front">
+                    <img src="photo/po1.png" alt="">
+                    <h3>Limited Discount !!</h3><h3 id="timer"></h3>
+                    <p class="corner-p">-30%</p>
+                </div>
+                <div class="card_back">
+                    <center><h3>Porsche Macan</h3></center>
+                    <p>* Engine: 4.4L V8 Twin-Turbo</p>
+                    <p>* Horsepower: 600 HP</p>
+                    <p>* Transmission: 8-Speed Automatic</p>
+                    <p>* 0–60 mph: 3.1 seconds</p>
+                    <center><p class="p2 corner-price">price: <span class="s_price">62,550<sup>$</sup></span></p></center>
+                    <img src="photo/porsche.png" alt="" class="corner">
+                </div>
+            </div>
+            <div class="car_card">
+                <div class="card_front">
+                    <img src="photo/mer3.png" alt="">
+                    <h3>Limited Discount !!</h3><h3 id="timer"></h3>
+                    <p class="corner-p">-20%</p>
+                </div>
+                <div class="card_back">
+                    <center><h3>Mercedes G-Class</h3></center>
+                    <p>* Engine: 4.4L V8 Twin-Turbo</p>
+                    <p>* Horsepower: 600 HP</p>
+                    <p>* Transmission: 8-Speed Automatic</p>
+                    <p>* 0–60 mph: 3.1 seconds</p>
+                    <center><p class="p2 corner-price">price: <span class="s_price">20,199.90<sup>£ </sup></span></p></center>
+                    <img src="photo/mercedes.png" alt="" class="corner">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img class=" image" src="photos-and-logos/number3.jpg" alt="Description">
+        <div class="text">
+            Discover the charm of performance and elegance with our dazzling white car,
+            shining in the city’s darkness, where luxury meets simplicity. Whether you’re looking for
+            a brand-new or a pre-owned vehicle, or need high-quality spare parts, we have it all. Add
+            your favorite cars to your wishlist to revisit them later, and benefit from exclusive deals
+            and discounts. Everything you need for a premium buying experience is right here.
+        </div>
+    </div>
+     
+    <div>
+        <h1>
+            spare parts section!
+        </h1>
+        <p class="discription">In our spare parts section, you will find a wide range of high-quality original parts, ensuring your vehicle performs at its best.</p>
+    </div>
+    <div class="opportunity">
+        <h2>Exceptional discounts on spare parts — don’t miss out!</h2>
+        <p class="discription">An opportunity you can’t miss on spare parts — act now!</p>
+            <div class="slider">
+                <table class="slide activee">
+                    <tr>
+                        <td><img src="photo/g6.png" ></td>
+                        <th><span>-50% </span><p>Rim</p></th>
+                        <th><span>Limited Offer!</span></th>
+                    </tr>
+                </table>
+                <table class="slide ">
+                    <tr>
+                        <td><img src="photo/f1.png" ></td>
+                        <th><span>-52% </span><p>Brack Disc</p></th>
+                        <th><span>Limited Offer!</span></th>
+                    </tr>
+                </table>
+                <table class="slide ">
+                    <tr>
+                        <td><img src="photo/c3.png" ></td>
+                        <th><span>-30% </span><p>Muffer</p></th>
+                        <th><span>Limited Offer!</span></th>
+                    </tr>
+                </table>
+            </div>
+    </div>
+    </section>
+    <!--cars for sell-->
+    <section id="sell-cars" class="page ">
+        <div style="display: flex; width: 100%;height: 50vh;align-items: center; justify-content: center;">
+            <div>
+                <!-- From Uiverse.io by jeremyssocial --> 
+                <div class="terminal-loader">
+                <div class="terminal-header">
+                    <div class="terminal-title">not yet prepared</div>
+                    <div class="terminal-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                    </div>
+                </div>
+                <div class="text-tt">soon...</div>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </section>
+    <!--page of sell-->
+    <section id="sell-car" class="page ">
+        <form class="my_car">
+        <h2>Sell Car</h2>
+            <table>
+                <tr >
+                    <td ><label for="N">Full Name:</label></td>
+                    <td><input type="text" id="N" required placeholder="your Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="P">Phone Namber:</label></td>
+                    <td><input type="tel" id="P" required placeholder="+216 22 123 456"></td>
+                </tr>
+                <tr>
+                    <td><label for="G">Car Marke</label></td>
+                    <td><input type="text" id="G" required ></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Car Model:</label></td>
+                    <td><input type="text" id="pass" required/><br/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="pass">Upload Car Photo:</label></td>
+                   
+                </tr>
+                <tr> <td colspan="2"><input type="file" id="pass" accept="image/*" required/></td></tr>
+                <tr>
+                    <th colspan="2"><button type="submit" class="btn_sell_car">Post Your Car</button></th>
+                    
+                </tr>
+                
+            </table>
+            
+        </form>
+
+    </section>
+    <!--page of new cars-->
+    <section id="new_c" class="page">
+        <div class="menu" id="not_felter">
+            <div class="test" id="logo">
+                <a href="#audi" ><img src="photo/audi.png" alt="" ></a>
+                <a href="#BMW"><img src="photo/bmw.png" alt="" ></a>
+                <a href="#Ford"><img src="photo/ford.png" alt="" ></a>
+                <a href="#Honda"><img src="photo/honda.png" alt="" ></a>
+                <a href="#Volkswagen"><img src="photo/volkswagen.png" alt="" ></a>
+                <a href="#Maszda"><img src="photo/masda.png" alt="" ></a>
+                <a href="#hyundai"><img src="photo/hyundai.png" alt="" ></a>
+                <a href="#porsche"><img src="photo/porsche.png" alt=""></a>
+                <a href="#Renault"><img src="photo/renault.png" alt="" ></a>
+                <a href="#Mercedes"><img src="photo/mercedes.png" alt="" ></a>
+            </div>
+            <div class="search-container">
+                <input type="text" class="search" id="search" placeholder="Search">
+                <i class="fa fa-search"></i>
+            </div>
+
+                     
+        </div>
+        <div id="model" class="model">
+            <div class="model_content" id="model_content">
+                <button class="the_x" id="closeBtn">x</button>
+                <h2 id="carName"></h2>
+                <p id="carYear"></p>
+                <p id="carPrice"></p>
+            </div>
+        </div>
+        <div class="mt" id="m"></div>
+            <div class="otay" data-name="audi"><h2 id="audi">Audi</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Audi TT RS" data-marck="Audi" data-year="0" data-price="80000" data-km="0" data-vitess="320">
+                    <img src="photo/40.png" alt="">
+                    <h3>Audi TT RS</h3>
+                    <p class="p2">price:80,000£</p><p class="p1"><s>price:81,000£</s> </p>
+                </div>
+                <div class="car" data-name="audi 2" data-price="4999.9" data-marck="Audi" data-year="2" data-km="3000" data-vitess="250" >
+                    <img src="photo/41.png" alt="">
+                    <h3>Audi 2</h3>
+                    <p class="p2">price:4999.9£</p><p class="p1"><s>price:5000£</s> </p>
+                </div>  
+                <div class="car" data-name="audi 3" data-price="9800.9" data-marck="Audi" data-year="1" data-km="2000" data-vitess="220" >
+                    <img src="photo/42.png" alt="">
+                    <h3>Audi 3</h3>
+                    <p class="p2">price:9800.9£</p><p class="p1"><s>price:1000£</s> </p>
+                </div>
+            </div>      
+            <div class="otay" data-name="BMW"><h2 id="BMW">BMW</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="BMW 1" data-price="1099.9" data-marck="BMW" data-year="0" data-km="0" data-vitess="300" >
+                    <img src="photo/22.png" alt="">
+                    <h3>BMW 1</h3>
+                    <p class="p2">price:1099.9£</p><p class="p1"><s>price:1100£</s> </p>
+                </div>  
+                <div class="car" data-name="BMW 2" data-price="3999.9" data-marck="BMW" data-year="5" data-km="10000" data-vitess="240" >
+                    <img src="photo/12.png" alt="">
+                    <h3>BMW 2</h3>
+                    <p class="p2">price:3999.9£</p><p class="p1"><s>price:4000£</s> </p>
+                </div>
+                <div class="car" data-name="BMW 3" data-price="1999.9" data-marck="BMW" data-year="3" data-km="7000" data-vitess="290" >
+                    <img src="photo/120.png" alt="">
+                    <h3>BMW 3</h3>
+                    <p class="p2">price:1999.9£</p><p class="p1"><s>price:2000£</s> </p>
+                </div>
+            </div>
+            <div class="otay" data-name="Ford"><h2 id="Ford">Ford</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Ford 1" data-price="23899.9" data-marck="Ford" data-year="7" data-km="20000" data-vitess="220" >
+                    <img src="photo/ford1.png" alt="">
+                    <h3>Ford 1</h3>
+                    <p class="p2">price:23899.9£</p><p class="p1"><s>price:24000£</s> </p>
+                </div>
+                <div class="car" data-name="Ford 2" data-price="8900" data-marck="Ford" data-year="5" data-km="9000" data-vitess="250" >
+                    <img src="photo/ford2.png" alt="">
+                    <h3>Ford 2</h3>
+                    <p class="p2">price:8900£</p><p class="p1"><s>price:9000£</s> </p>
+                </div>
+                <div class="car" data-name="Ford 3" data-price="3099.9" data-marck="Ford" data-year="0" data-km="0" data-vitess="300" >
+                    <img src="photo/ford3.png" alt="">
+                    <h3>Ford 3</h3>
+                    <p class="p2">price:3099.9£</p><p class="p1"><s>price:4000£</s> </p>
+                </div>    
+            </div>
+            <div class="otay" data-name="Honda"><h2 id="Honda">Honda</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Honda 1" data-price="1200.0" data-marck="Honda" data-year="8" data-km="130000" data-vitess="210" >
+                    <img src="photo/honda1.png" alt="">
+                    <h3>Honda 1</h3>
+                    <p class="p2">price:1200.0£</p><p class="p1"><s>price:1400.0£</s> </p>
+                </div>
+                <div class="car" data-name="Honda 2" data-price="1600.0" data-marck="Honda" data-year="7" data-km="10000" data-vitess="240" >
+                    <img src="photo/honda2.png" alt="">
+                    <h3>Honda 2</h3>
+                    <p class="p2">price:1600.0£</p><p class="p1"><s>price:1850.0£</s> </p>
+                </div> 
+                <div class="car" data-name="Honda 3" data-price="2000.0" data-marck="Honda" data-year="3" data-km="2000" data-vitess="260" >
+                    <img src="photo/honda3.png" alt="">
+                    <h3>Honda 3</h3>
+                    <p class="p2">price:2000.0£</p><p class="p1"><s>price:2300.0£</s> </p>
+                </div>      
+            </div>
+            <div class="otay" data-name="Volkswagen"><h2 id="Volkswagen">Volkswagen</h2></div>
+            <div class="cars_liste"> 
+                <div class="car" data-name="golf" data-price="7000.0" data-marck="Volkswagen" data-year="1" data-km="1500" data-vitess="210" >
+                    <img src="photo/vol1.png" alt="">
+                    <h3>golf</h3>
+                    <p class="p2">price:7000.0£</p><p class="p1"><s>price:9000.0£</s> </p>
+                </div> 
+                <div class="car" data-name="polo-gti" data-price="2250.0" data-marck="Volkswagen" data-year="5" data-km="4500" data-vitess="210" >
+                    <img src="photo/vol2.png" alt="">
+                    <h3>polo-gti</h3>
+                    <p class="p2">price:2250.0£</p><p class="p1"><s>price:2300.0£</s> </p>
+                </div>  
+                <div class="car" data-name="polo-red" data-price="2200.0" data-marck="Volkswagen" data-year="5" data-km="5000" data-vitess="210" >
+                    <img src="photo/vol3.png" alt="">
+                    <h3>polo-red</h3>
+                    <p class="p2">price:2200.0£</p><p class="p1"><s>price:2500.0£</s> </p>
+                </div>       
+            </div>
+            <div class="otay" data-name="Mazda"><h2 id="Maszda">Mazda</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Maszda 1" data-price="19000.0" data-marck="Mazda" data-year="0" data-km="0" data-vitess="300" >
+                    <img src="photo/mazda1.png" alt="">
+                    <h3>Mazda 1</h3>
+                    <p class="p2">price:19000.0£</p><p class="p1"><s>price:20000.0£</s> </p>
+                </div>
+                <div class="car" data-name="Mazda 2" data-price="5000.0" data-marck="Mazda" data-year="3" data-km="5000" data-vitess="240" >
+                    <img src="photo/mazda2.png" alt="">
+                    <h3>Mazda 2</h3>
+                    <p class="p2">price:5000.0£</p><p class="p1"><s>price:6000.0£</s> </p>
+                </div>
+                <div class="car" data-name="porter" data-price="9700.0" data-marck="Mazda" data-year="1" data-km="1000" data-vitess="260" >
+                    <img src="photo/mazda3.png" alt="">
+                    <h3>porter</h3>
+                    <p class="p2">price:9700.0£</p><p class="p1"><s>price:10000.0£</s> </p>
+                </div>     
+            </div>
+            <div class="otay" data-name="hyundai"><h2 id="hyundai">hyundai</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="hyundai 1" data-price="2800.0" data-marck="hyundai" data-year="8" data-km="50000" data-vitess="200" >
+                    <img src="photo/hy1.png" alt="">
+                    <h3>hyundai 1</h3>
+                    <p class="p2">price:2800.0£</p><p class="p1"><s>price:3000.0£</s> </p>
+                </div>
+                <div class="car" data-name="tucson" data-price="3500.0" data-marck="hyundai" data-year="7" data-km="20000" data-vitess="200" >
+                    <img src="photo/hy2.png" alt="">
+                    <h3>tucson</h3>
+                    <p class="p2">price:3500.0£</p><p class="p1"><s>price:3700.0£</s> </p>
+                </div>
+                <div class="car" data-name="porter" data-price="2800.0" data-marck="hyundai" data-year="4" data-km="10000" data-vitess="190" >
+                    <img src="photo/hy3.png" alt="">
+                    <h3>porter</h3>
+                    <p class="p2">price:2800.0£</p><p class="p1"><s>price:3000.0£</s> </p>
+                </div> 
+            </div>
+            <div class="otay" data-name="porsche"><h2 id="porsche">porsche</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Macan" data-price="89899.5" data-marck="porsche" data-year="0" data-km="0" data-vitess="380" >
+                    <img src="photo/po1.png" alt="">
+                    <h3>porsche Macan</h3>
+                    <p class="p2">price:89899.5£</p><p class="p1"><s>price:90000£</s> </p>
+                </div>
+                <div class="car" data-name="porsche 2" data-price="79899.5" data-marck="porsche" data-year="0" data-km="0" data-vitess="350" >
+                    <img src="photo/po2.png" alt="">
+                    <h3>porsche 2</h3>
+                    <p class="p2">price:79899.5£</p><p class="p1"><s>price:8000£</s> </p>
+                </div>
+                <div class="car" data-name="porsche 3" data-price="99099.9" data-marck="porsche" data-year="5" data-km="15000" data-vitess="290" >
+                    <img src="photo/po3.png" alt="">
+                    <h3>porsche 3</h3>
+                    <p class="p2">price:99099.9£</p><p class="p1"><s>price:100000£</s> </p>
+                </div>
+            </div>
+            <div class="otay" data-name="Renault"><h2 id="Renault">Renault</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Renault 1" data-price="1099.9" data-marck="Renault" data-year="12" data-km="25000" data-vitess="200" >
+                    <img src="photo/r1.png" alt="">
+                    <h3>Renault 1</h3>
+                    <p class="p2">price:1099.9£</p><p class="p1"><s>price:1100£</s> </p>
+                </div>   
+                <div class="car" data-name="Renault 2" data-price="399.9" data-marck="Renault" data-year="15" data-km="15000" data-vitess="180" >
+                    <img src="photo/r2.png" alt="">
+                    <h3>Renault 2</h3>
+                    <p class="p2">price:399.9£</p><p class="p1"><s>price:400£</s> </p>
+                </div> 
+                <div class="car" data-name="Renault 3" data-price="599.9" data-marck="Renault" data-year="4" data-km="7000" data-vitess="250" >
+                    <img src="photo/r3.png" alt="">
+                    <h3>Renault 3</h3>
+                    <p class="p2">price:599.9£</p><p class="p1"><s>price:700£</s> </p>
+                </div>
+            </div>
+            <div class="otay" data-name="Mercedes"><h2 id="Mercedes">Mercedes</h2></div>
+            <div class="cars_liste">
+                <div class="car" data-name="Mercedes G-Class" data-price="20199.9" data-marck="Mercedes" data-year="6" data-km="19000" data-vitess="260" >
+                    <img src="photo/mer3.png" alt="">
+                    <h3>Mercedes G-Class</h3>
+                    <p class="p2">price:20199.9£</p><p class="p1"><s>price:2200£</s> </p>
+                </div>
+                <div class="car" data-name="Mercedes 2" data-price="899.9" data-marck="Mercedes" data-year="2" data-km="7800" data-vitess="280" >
+                    <img src="photo/mer2.png" alt="">
+                    <h3>Mercedes 2</h3>
+                    <p class="p2">price:899.9£</p><p class="p1"><s>price:900£</s> </p>
+                </div> 
+                <div class="car" data-name="Mercedes 3" data-price="1399.9" data-marck="Mercedes" data-year="0" data-km="0" data-vitess="300" >
+                    <img src="photo/mer1.png" alt="">
+                    <h3>Mercedes 3</h3>
+                    <p class="p2">price:1399.9£</p><p class="p1"><s>price:1500£</s> </p>
+                </div>   
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+    <p>This page was developed by Sameh Otay. <br>
+         To get in touch, follow me on Facebook, LinkedIn, WhatsApp, visit my GitHub page, and connect with me on Messenger.</p> <br>
+    <div class="footer-links">
+       <a href=""> <table>
+            <tr>
+                <th>
+                    <p>facebook</p>
+                </th>
+                <th>
+                    <img src="photos-and-logos/facebook.png" alt="">
+                </th>
+            </tr>
+        </table></a> 
+        <a href=""> <table>
+            <tr>
+                <th>
+                    <p>GitHub</p>
+                </th>
+                <th>
+                    <img src="photos-and-logos/github.png" alt="">
+                </th>
+            </tr>
+        </table></a> 
+        <a href=""> <table>
+            <tr>
+                <th>
+                    <p>Twiter</p>
+                </th>
+                <th>
+                    <img src="photos-and-logos/twiter.png" alt="">
+                </th>
+            </tr>
+        </table></a> 
+        <a href=""> <table>
+            <tr>
+                <th>
+                    <p>LinkedIn</p>
+                </th>
+                <th>
+
+                    <!--********************************************************-->
+                    <img src="photos-and-logos/3.png" alt="">
+                </th>
+            </tr>
+        </table></a> 
+    </div>
+    
+</footer>
+<script src="car.js"></script>
+</body>
+</html>
